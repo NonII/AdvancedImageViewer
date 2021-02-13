@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WpfViewerDemo/1.0.0": {
+        "dependencies": {
+          "AdvancedImageViewer.Core": "1.0.0",
+          "AdvancedImageViewer.DicomImageSupport": "1.0.0",
+          "AdvancedImageViewer.Extensions": "1.0.0",
+          "AdvancedImageViewer.GeneralImageSupport": "1.0.0",
+          "AdvancedImageViewer.WPFUserControl": "1.0.0"
+        },
+        "runtime": {
+          "WpfViewerDemo.dll": {}
+        }
+      },
+      "AdvancedImageViewer.Core/1.0.0": {
+        "runtime": {
+          "AdvancedImageViewer.Core.dll": {}
+        }
+      },
+      "AdvancedImageViewer.DicomImageSupport/1.0.0": {
+        "dependencies": {
+          "AdvancedImageViewer.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdvancedImageViewer.DicomImageSupport.dll": {}
+        }
+      },
+      "AdvancedImageViewer.Extensions/1.0.0": {
+        "dependencies": {
+          "AdvancedImageViewer.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdvancedImageViewer.Extensions.dll": {}
+        }
+      },
+      "AdvancedImageViewer.GeneralImageSupport/1.0.0": {
+        "dependencies": {
+          "AdvancedImageViewer.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdvancedImageViewer.GeneralImageSupport.dll": {}
+        }
+      },
+      "AdvancedImageViewer.WPFUserControl/1.0.0": {
+        "dependencies": {
+          "AdvancedImageViewer.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdvancedImageViewer.WPFUserControl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfViewerDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedImageViewer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedImageViewer.DicomImageSupport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedImageViewer.Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedImageViewer.GeneralImageSupport/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdvancedImageViewer.WPFUserControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
